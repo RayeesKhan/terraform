@@ -1,0 +1,7 @@
+1)terraform init # to initialize the terraform plugins. based upon the providerm its creates the .terraform folder and locks the version 
+2) terraform ini --upgrdde # to change the version of the terraform publins.
+3) terraform plan, it will give you the blueprint of the resources which it is going to create.
+4) terraform apply -auto-aprove to create the resources
+5) terraform destroy -auto-approve # to destroy the created resource
+6) terrraform apply -var-file="dev.fvars"
+7) terraform apply -auto-approve -var=Intance_type=t3.micro" # to pass the variables at run time
