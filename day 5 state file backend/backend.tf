@@ -3,6 +3,7 @@ terraform {
     bucket = "rk10072025"
     key    = "terraform.tfstate"
     region = "us-east-1"
-    object_lock_enabled = "true"
+    use_lockfile = false
+    encrypt = true
   }
 }

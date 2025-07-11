@@ -15,7 +15,7 @@ resource "aws_vpc" "name" {
 resource "aws_vpc" "name2" {
     cidr_block = "10.0.0.0/24"
     tags = {
-      Name = "Terraform_Plan3"
+      Name = "Terraform_test1t"
     }
   
 }
